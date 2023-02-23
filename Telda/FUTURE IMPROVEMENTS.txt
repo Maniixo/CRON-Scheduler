@@ -1,0 +1,6 @@
+If the program was executed from the main function, then the functions input must be a one line.
+IMPROVEMENT 1: make the input accept a whole function implementation
+
+IMPROVEMENT 2: edit the running service's properties such as expected time or Scheduler time
+
+IMPROVEMENT 3: remove a running service from the system.

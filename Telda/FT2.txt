@@ -1,0 +1,5 @@
+def FT2():
+	print("Second running")
+	time.sleep(15)
+
+FT2()

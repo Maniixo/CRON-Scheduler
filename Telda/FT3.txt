@@ -1,0 +1,5 @@
+def FT3():
+	print("Third running")
+	time.sleep(20)
+
+FT3()

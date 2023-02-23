@@ -1,0 +1,5 @@
+def FT1():
+	print("First running")
+	time.sleep(10)
+
+FT1()

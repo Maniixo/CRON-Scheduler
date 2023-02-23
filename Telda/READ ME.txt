@@ -1,0 +1,21 @@
+The system is designed to read from the "Many Service [TimeExceded].txt" file.
+
+
+To add another service, this format must be followed: 
+
+1) Identifier: "uniqueIdentifier"
+2) ExpectedTime: (number)[sec/min/hr]
+3) SchedulerTime: (number)[sec/min/hr]
+4) ****
+
+line 4 is a MUST in order to run the service written before it.
+After adding service in the txt file, create another txt file named after the Identifier of the service and write the function that will be executed and call it.
+Examples are given in those txt files in the project.  
+
+
+After running the test_serviceInput, the console will wait for the user to hit [q], this will kill the console application.
+The application will print a message to confirm closing the program, then no more services will start, and the services that already started will finish then the program will close.
+The project then will create a log file named after each service's Identifier, this txt file will log every movement of the service such as when did it started,
+when it finish and so on.
+
+
